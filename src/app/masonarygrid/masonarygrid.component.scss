@@ -1,0 +1,135 @@
+body {
+    font-family: 'Roboto', sans-serif !important;
+}
+.masonary-items, .masonary-item{
+    img{
+        max-width: 100%;
+        height: auto;
+    }
+}
+.cards {
+    width: auto;
+    border: 1px solid #e8e8e8;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 15px;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+.masonary-items-group{
+    position: relative;
+}
+.masonary-items, .masonary-item {
+    max-width: 30%;
+    padding: 0 10px 20px;
+}
+.user-details{
+    // display: flex;
+    // flex-wrap: wrap;
+    // align-items: center;
+    // justify-content: flex-start;
+    img{
+        float: left;
+        border-radius: 50%;
+        height: 40px;
+        width: 40px;
+        margin-right: 8px;
+    }
+}
+.user-name{
+    // align-content: center;
+    // display: flex;
+    // flex-wrap: wrap;
+    h3{
+        flex: 0 0 100%;
+        margin: 0px;
+        padding: 0px;
+        color: #333;
+        font-size: 16px;
+        font-weight: 500;
+        margin: 0;
+        font-family: 'Roboto', sans-serif !important;
+    }
+    p{
+        flex: 0 0 100%;
+        margin: 0px !important;
+        margin: 0px;
+        padding: 0px;
+        color: #8e8e8e;
+        font-size: 14px;
+        margin-bottom: 8px;
+        font-family: 'Roboto', sans-serif !important;
+    }
+}
+.restau-name{
+    color: #1c82d8;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 6px;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    padding-bottom: 2px;
+    border-bottom: 1px solid #d5d5d5;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    a{
+        color: #1c82d8;
+        -webkit-transition: all .5s ease-in-out;
+        transition: all .5s ease-in-out;
+        font-family: 'Roboto', sans-serif !important;
+        font-size: 16px;
+        font-weight: 700;
+        text-decoration: none;
+    }
+}
+.time {
+    color: #8e8e8e;
+    font-size: 14px;
+    line-height: 1.5;
+}
+.rating i{
+    background-color: #e81c43;
+    margin: 2px;
+    border-radius: 3px;
+    padding: 2px 3px;
+    color: #fff;
+    font-size: 10px;
+    line-height: 11px;
+}
+.masonarygrid-wrapper{
+    background-color: #fafafa;
+    padding: 50px 0px;
+}
+.review{
+    color: #333;
+    margin: 3px 0 0;
+    word-break: break-word;
+    font-weight: 100;
+    font-size: 14px;
+}
+.gray-bg {
+    background: #fafafa;
+    padding: 23px 0 40px;
+    .recent-activity {
+        position: relative;
+        min-height: 300px;
+        > .masonary-items{
+            display: block;
+        }
+    }
+}
+.grid-sizer{
+    width: 33%;
+}
+.grid {
+	max-width: 100%;
+	list-style: none;
+	margin: 30px auto;
+    padding: 0;
+    display: block;
+}
+.recent-activity{
+    position: relative;
+    max-height: 300px;
+}
